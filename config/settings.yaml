@@ -1,0 +1,13 @@
+data:
+  source: FBref
+  retrieval_library: soccerdata
+  leagues: [ENG-Premier League, ESP-La Liga]
+  seasons: ["2024-2025"]
+  categories: [standard, shooting, passing, passing_types, goal_shot_creation, defense, possession, misc, keeper]
+paths:
+  raw: data/raw
+  processed: data/processed
+  results: results
+collection:
+  retries: 1
+  retry_delay_seconds: 30

@@ -1,0 +1,153 @@
+{
+  "source": "FBref",
+  "retrieval_library": "soccerdata",
+  "configured_scope": {
+    "source": "FBref",
+    "retrieval_library": "soccerdata",
+    "leagues": [
+      "ENG-Premier League",
+      "ESP-La Liga"
+    ],
+    "seasons": [
+      "2024-2025"
+    ],
+    "categories": [
+      "standard",
+      "shooting",
+      "passing",
+      "passing_types",
+      "goal_shot_creation",
+      "defense",
+      "possession",
+      "misc",
+      "keeper"
+    ]
+  },
+  "coverage": [
+    {
+      "path": "2024-2025/ENG-Premier League/standard.csv",
+      "file_present": false,
+      "supported_by_verified_library": true,
+      "latest_download_status": "failed"
+    },
+    {
+      "path": "2024-2025/ENG-Premier League/shooting.csv",
+      "file_present": false,
+      "supported_by_verified_library": true,
+      "latest_download_status": "not_attempted"
+    },
+    {
+      "path": "2024-2025/ENG-Premier League/passing.csv",
+      "file_present": false,
+      "supported_by_verified_library": false,
+      "latest_download_status": "not_attempted"
+    },
+    {
+      "path": "2024-2025/ENG-Premier League/passing_types.csv",
+      "file_present": false,
+      "supported_by_verified_library": false,
+      "latest_download_status": "not_attempted"
+    },
+    {
+      "path": "2024-2025/ENG-Premier League/goal_shot_creation.csv",
+      "file_present": false,
+      "supported_by_verified_library": false,
+      "latest_download_status": "not_attempted"
+    },
+    {
+      "path": "2024-2025/ENG-Premier League/defense.csv",
+      "file_present": false,
+      "supported_by_verified_library": false,
+      "latest_download_status": "not_attempted"
+    },
+    {
+      "path": "2024-2025/ENG-Premier League/possession.csv",
+      "file_present": false,
+      "supported_by_verified_library": false,
+      "latest_download_status": "not_attempted"
+    },
+    {
+      "path": "2024-2025/ENG-Premier League/misc.csv",
+      "file_present": false,
+      "supported_by_verified_library": true,
+      "latest_download_status": "not_attempted"
+    },
+    {
+      "path": "2024-2025/ENG-Premier League/keeper.csv",
+      "file_present": false,
+      "supported_by_verified_library": true,
+      "latest_download_status": "not_attempted"
+    },
+    {
+      "path": "2024-2025/ESP-La Liga/standard.csv",
+      "file_present": false,
+      "supported_by_verified_library": true,
+      "latest_download_status": "not_attempted"
+    },
+    {
+      "path": "2024-2025/ESP-La Liga/shooting.csv",
+      "file_present": false,
+      "supported_by_verified_library": true,
+      "latest_download_status": "not_attempted"
+    },
+    {
+      "path": "2024-2025/ESP-La Liga/passing.csv",
+      "file_present": false,
+      "supported_by_verified_library": false,
+      "latest_download_status": "not_attempted"
+    },
+    {
+      "path": "2024-2025/ESP-La Liga/passing_types.csv",
+      "file_present": false,
+      "supported_by_verified_library": false,
+      "latest_download_status": "not_attempted"
+    },
+    {
+      "path": "2024-2025/ESP-La Liga/goal_shot_creation.csv",
+      "file_present": false,
+      "supported_by_verified_library": false,
+      "latest_download_status": "not_attempted"
+    },
+    {
+      "path": "2024-2025/ESP-La Liga/defense.csv",
+      "file_present": false,
+      "supported_by_verified_library": false,
+      "latest_download_status": "not_attempted"
+    },
+    {
+      "path": "2024-2025/ESP-La Liga/possession.csv",
+      "file_present": false,
+      "supported_by_verified_library": false,
+      "latest_download_status": "not_attempted"
+    },
+    {
+      "path": "2024-2025/ESP-La Liga/misc.csv",
+      "file_present": false,
+      "supported_by_verified_library": true,
+      "latest_download_status": "not_attempted"
+    },
+    {
+      "path": "2024-2025/ESP-La Liga/keeper.csv",
+      "file_present": false,
+      "supported_by_verified_library": true,
+      "latest_download_status": "not_attempted"
+    }
+  ],
+  "files": [],
+  "download_attempts": [
+    {
+      "source": "FBref",
+      "retrieval_library": "soccerdata",
+      "library_version": "2026.43.0",
+      "python_version": "3.14.0",
+      "season": "2024-2025",
+      "league": "ENG-Premier League",
+      "category": "standard",
+      "path": "2024-2025/ENG-Premier League/standard.csv",
+      "attempted_at_utc": "2026-11-09T19:38:28.614685+00:00",
+      "status": "failed",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://fbref.com/en/comps/",
+      "attempts": 1
+    }
+  ]
+}
